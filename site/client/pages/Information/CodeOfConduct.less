@@ -1,8 +1,20 @@
 @import '/client/style/imports.import.less';
 
 #code-of-conduct {
+  background: @darkBlue;
   .container {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  a {
+    color: @infoColor;
+    &:link, &:visited {
+      color: @infoColor;
+    }
+    &:hover {
+      color: lighten(@infoColor, 10%);
+    }
+
   }
 }
