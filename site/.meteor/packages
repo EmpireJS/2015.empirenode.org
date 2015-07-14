@@ -1,0 +1,31 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+iron:router
+less
+nemo64:bootstrap
+natestrauser:animate-css
+cwaring:modernizr
+iron:layout
+ian:accounts-ui-bootstrap-3
+accounts-password
+meteorhacks:inject-initial
+coffeescript
+plusmore:reactive-responsive-helpers
+jimbog:tap
+fortawesome:fontawesome
+percolate:momentum-iron-router
+255kb:meteor-status
+yasinuslu:blaze-meta
+juliancwirko:s-alert
+juliancwirko:s-alert-stackslide
+smeevil:syntax-error-notifier
+patrickleet:slideout
+babrahams:editable-text
+dburles:collection-helpers
+aldeed:template-extension
+appcache

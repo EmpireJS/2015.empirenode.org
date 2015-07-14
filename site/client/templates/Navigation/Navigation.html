@@ -1,0 +1,54 @@
+<template name="Navigation">
+  <nav>
+    <h5 class="sidebar-header">Empire Node 2015</h5>
+    <ul class="nav nav-pills nav-stacked">
+
+<!--
+Information
+  - this is an overview/marketing style page
+    - CTA / get tickets
+    - keynote talks -> View Full Schedule
+    - Call For Speakers
+    - sponsors
+    - details
+    - about
+    - get tickets
+    - FAQ
+    - organizers?
+    - footer / get tickets
+Get Tickets
+Schedule
+Getting Here
+Videos?
+Dinner?
+
+-->
+        <li class="{{currentRouteClass 'Information'}}" data-state="Information">
+            <a href="{{pathFor 'Information'}}" title="Information">
+                <i class="fa  fa-fw fa-info"></i> Information
+            </a>
+        </li>
+
+        <li class="" data-state="GetTickets">
+            <a href="https://www.eventbrite.com/" title="Get Tickets">
+                <i class="fa  fa-fw fa-ticket"></i> Get Tickets
+            </a>
+        </li>
+
+        <li class="{{currentRouteClass 'Schedule'}}" data-state="Schedule">
+            <a href="{{pathFor 'Schedule'}}" title="Schedule">
+                <i class="fa  fa-fw fa-calendar"></i> Schedule
+            </a>
+        </li>
+
+        <li class="{{currentRouteClass 'GettingHere'}}" data-state="GettingHere">
+            <a href="{{pathFor 'GettingHere'}}" title="GettingHere">
+                <i class="fa  fa-fw fa-map-marker"></i> Getting Here
+            </a>
+        </li>
+
+
+
+    </ul>
+  </nav>
+</template>

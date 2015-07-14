@@ -1,0 +1,25 @@
+<template name="AppLayout">
+    {{> Loader}}
+    {{> yield "modals"}}
+    {{#if ios}}
+        <div id="ios-status-bar"></div>
+    {{/if}}
+
+    <!-- App Layout -->
+
+    <nav id="menu" class="{{theme}} {{ios}}">
+        {{> LeftSidebar}}
+    </nav>
+
+    <div id="panel" class="{{theme}} {{ios}}">
+        {{> Header}}
+        {{#momentum plugin='iron-router' options=transition}}
+            {{> yield}}
+        {{/momentum}}
+    </div>
+
+    <!-- ** End App Layout ** -->
+
+    {{> sAlert}}
+    {{> meteorStatus}}
+</template>

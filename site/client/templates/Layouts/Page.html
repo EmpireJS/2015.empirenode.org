@@ -1,0 +1,10 @@
+<template name="Page">
+  <div class="page">
+      <div class="pageheader">
+            {{> yield "header"}}
+        </div>
+        <section id="main-content" class="container-fluid">
+            {{> yield}}
+        </section>
+  </div>
+</template>
