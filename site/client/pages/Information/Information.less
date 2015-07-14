@@ -33,9 +33,6 @@ section {
   .page-header {
     border-bottom: 0;
     margin: 20px 0;
-    h3 {
-      color: @primaryColor;
-    }
   }
 
 }
@@ -60,6 +57,10 @@ section.content {
   header {
     margin-bottom: 50px;
   }
+
+  .page-header {
+    border: none;
+  }
 }
 
 section:before,
@@ -77,7 +78,7 @@ section.light.with-bg {
   background-position: center;
 }
 section.dark {
-  background: #2b2d35;
+  background: @black;
 }
 section.dark.with-bg {
   background-size: cover;
@@ -260,20 +261,12 @@ blockquote {
   right: 0;
   bottom: 0;
   opacity: 1;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+
   z-index: 0;
 }
 .overlay-bg.dark {
   opacity: 0.7;
-  background: #000;
+  background: @black;
 }
 .container.dark {
   color: @white;
