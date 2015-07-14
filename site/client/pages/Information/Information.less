@@ -30,6 +30,14 @@ section {
     text-transform: uppercase;
   }
 
+  .page-header {
+    border-bottom: 0;
+    margin: 20px 0;
+    h3 {
+      color: @primaryColor;
+    }
+  }
+
 }
 
 section.content {
@@ -115,7 +123,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 4em 0;
+    padding: 2em 0;
     text-align: center;
 
     header {
@@ -243,10 +251,6 @@ blockquote {
 .list-group-item.active:hover,
 .list-group-item.active:focus {
   background-color: #2b2d35;
-}
-
-.page-header {
-  border-bottom: 0;
 }
 
 .overlay-bg {
@@ -676,16 +680,13 @@ blockquote {
     padding: 1.5em 1em;
   }
 }
-@media (min-height: 1024px) {
-  #intro .container, #intro-video .container, #intro .row, #intro-video .row {
-    padding-top: 140px;
-  }
-}
+
 
 @import '/client/style/imports.import.less';
 
 #intro {
   min-height: 315px;
+  max-height: 676px;
 }
 #intro .img-responsive {
   margin: 0 auto;
@@ -708,8 +709,15 @@ blockquote {
 #intro .row,
 #intro-video .row {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
+
+@media (min-height: 1024px) {
+  #intro .container, #intro-video .container, #intro .row, #intro-video .row {
+    padding-top: 100px;
+  }
+}
+
 #intro .carousel-caption-center,
 #intro-video .carousel-caption-center {
   position: absolute;
