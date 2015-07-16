@@ -8,3 +8,14 @@
         </div>
   </div>
 </template>
+
+<template name="PageNoHeader">
+  <div class="page no-header">
+      <div class="pageheader">
+            {{> yield "header"}}
+        </div>
+        <div id="main-content" class="container-fluid">
+            {{> yield}}
+        </div>
+  </div>
+</template>
