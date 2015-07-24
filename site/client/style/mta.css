@@ -2,11 +2,11 @@
 /* Hex codes below compiled from http://mta.info/developers/data/colors.csv */
 .mta-bullet {
     font-family: Helvetica, sans-serif;
-    width:  1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
     font-size: 1em;
     line-height: 1em;
-    padding: 0.25em;
+    padding: .3em;
     text-align: center;
     font-weight: bold;
     color: #FFF;
