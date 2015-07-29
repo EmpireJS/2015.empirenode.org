@@ -23,7 +23,7 @@ debug:
 	meteor debug -p $(PORT) --settings ./config/$(APP_ENV)/settings.json
 
 deploy:
-	meteor deploy https://$(APP_NAME).meteor.com --settings ./config/$(APP_ENV)/settings.json
+	meteor deploy 2015.empirenode.org --settings ./config/$(APP_ENV)/settings.json
 
 mongo:
 	meteor mongo
