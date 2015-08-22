@@ -1,8 +1,11 @@
 Template.Information.rendered = function () {
   App.UI.fullScreenContainer(this.$('.full-screen-container'));
-  Meteor.setTimeout(function() {
+  if (ResponsiveHelpers.isXs()) {
+    Meteor.setTimeout(function() {
+      sAlert.info('Call for Speakers is now Open!');
+    }, 2000);
+  }
 
-  });
 };
 
 var $onResize = function(event) {
