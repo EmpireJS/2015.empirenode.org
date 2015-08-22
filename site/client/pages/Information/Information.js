@@ -1,5 +1,8 @@
 Template.Information.rendered = function () {
   App.UI.fullScreenContainer(this.$('.full-screen-container'));
+  Meteor.setTimeout(function() {
+
+  });
 };
 
 var $onResize = function(event) {
