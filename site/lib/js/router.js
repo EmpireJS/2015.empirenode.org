@@ -32,7 +32,7 @@ Router.route('/', function () {
   name: 'Information',
   onBeforeAction: function() {
     if (Meteor.isClient) {
-      Meta.setTitle('Empire Node 2015 | Information');
+      Meta.setTitle('Information');
     }
     this.next();
   }
@@ -44,7 +44,7 @@ Router.route('/schedule', function () {
   name: 'Schedule',
   onBeforeAction: function() {
     if (Meteor.isClient) {
-      Meta.setTitle('Empire Node 2015 | Schedule');
+      Meta.setTitle('Schedule');
     }
     this.next();
   }
@@ -56,7 +56,7 @@ Router.route('/getting-here', function () {
   name: 'GettingHere',
   onBeforeAction: function() {
     if (Meteor.isClient) {
-      Meta.setTitle('Empire Node 2015 | Getting Here');
+      Meta.setTitle('Getting Here');
     }
     this.next();
   }

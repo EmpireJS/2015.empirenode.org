@@ -12,6 +12,11 @@ PROJECT_DIR=$(shell pwd)
 
 start:
 	NODE_OPTIONS=$(NODE_OPTIONS) \
+	PORT=$(PORT) \
+	meteor -p $(PORT) --settings ./config/$(APP_ENV)/settings.json $(APP_OPTIONS)
+
+start-mobile:
+	NODE_OPTIONS=$(NODE_OPTIONS) \
 	HOST=$(HOST) \
 	PORT=$(PORT) \
 	meteor -p $(PORT) --settings ./config/$(APP_ENV)/settings.json --mobile-server $(HOST):$(PORT) $(APP_OPTIONS)
