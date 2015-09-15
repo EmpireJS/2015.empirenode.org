@@ -6,6 +6,10 @@
     margin-right: 10px;
   }
 
+  #nav-tabs {
+    margin-top: 35%;
+  }
+
   .nav.nav-justified > li > a { position: relative; }
   .nav.nav-justified > li > a:hover,
   .nav.nav-justified > li > a:focus { background-color: transparent; }
@@ -44,14 +48,19 @@
   .tab-pane .tab-inner { padding: 0; }
 }
 
-
 @media (min-width: 768px) {
   #keynote {
-    .nav.nav-justified > li > a > .quote {
-        left: auto;
-        top: auto;
-        right: 20px;
-        bottom: 0px;
+    #nav-tabs {
+      margin-top: 15%;
+    }
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #keynote {
+    #nav-tabs {
+      margin-top: initial;
     }
   }
 }
