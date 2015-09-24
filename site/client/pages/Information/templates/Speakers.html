@@ -1,3 +1,8 @@
+<template name="Speakers">
+  {{> speakers1}}
+  {{> speakers2}}
+</template>
+
 <template name="speakers1">
   <section id="speakers1" class="content speaker-block">
     <div class="text-center">
@@ -91,6 +96,7 @@
   </section>
 </template>
 
+
 <!--end of first row-->
 
 <template name="speakers2">
@@ -183,165 +189,4 @@
       </div>
     </div>
   </section>
-</template>
-
-<template name="speakers3">
-<section id="speakers3" class="content speaker-block">
-  <div class="text-center">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1" role="tabpanel">
-              <div class="col-xs-4 col-sm-12">
-
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-justified" id="nav-tabs-2" role="tablist">
-                      
-                      <li role="presentation" class="active">
-                          <a href="#rod-vagg" aria-controls="rod-vagg" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://media.licdn.com/media/p/7/005/06a/315/37290fd.jpg" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#karissa-mckelvey" aria-controls="karissa-mckelvey" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://avatars2.githubusercontent.com/u/633012?v=3&s=240" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#steve-kinney" aria-controls="steve-kinney" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://avatars0.githubusercontent.com/u/251000?v=3&s=240" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#ben-newman" aria-controls="ben-newman" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://avatars2.githubusercontent.com/u/5750?v=3&s=240" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#justin-searls" aria-controls="justin-searls" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://pbs.twimg.com/profile_images/2360535353/20120630-face.jpg" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#kassandra-perch" aria-controls="kassandra-perch" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://avatars3.githubusercontent.com/u/148924?v=3&s=240" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#william-blankenship" aria-controls="william-blankenship" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://pbs.twimg.com/profile_images/457653140859256832/3vdb01Fn.jpeg" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-
-                      <li role="presentation" class="">
-                          <a href="#nathan-epstein" aria-controls="nathan-epstein" role="tab" data-toggle="tab">
-                              <img class="img-speaker" src="https://avatars3.githubusercontent.com/u/3989198?v=3&s=240" />
-                              <span class="quote"><i class="fa fa-quote-left"></i></span>
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-
-
-              <div class="col-xs-8 col-sm-12"> 
-
-                 <!-- Tab panes -->
-                  <div class="tab-content" id="tabs-collapse-2">
-                      <div role="tabpanel" class="tab-pane fade in active" id="rod-vagg">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Keynote</h3>
-                              <p class="lead">Find out what the <i>fork</i> is going on with Node.js. Rod Vagg speaks about where Node.js is, and where it’s going.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Rod Vagg</strong></p>
-                              <p><em class="text-capitalize">Node Core contributor</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="karissa-mckelvey">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Managing changes to your data with Dat</h3>
-                              <p class="lead">Karissa builds interactive data visualization and collaboration tools for world domination.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Karissa McKelvey</strong></p>
-                              <p><em class="text-capitalize"> Programmer, data scientist, and academic-in-another-life</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="steve-kinney">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Desktop Applications w/ Node and Electron</h3>
-                              <p class="lead">Steve furthers tech education as co-director of academics at the Turing School and happened to once fix the popcorn machine at Fourth Avenue Pub in Park Slope.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Steve Kinney</strong></p>
-                              <p><em class="text-capitalize">Instructor at the Turing School of Software and Design</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="ben-newman">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">The Importance of <code>import</code> and <code>export</code></h3>
-                              <p class="lead">Previously of Meebo, Apture, Mozilla, Quora, and Facebook - Ben current flexes his passion for dynamic languages representing Meteor in the TC39 standards process.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Ben Newman</strong></p>
-                              <p><em class="text-capitalize">Engineer @ Meteor Development Group</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="justin-searls">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">The Social Coding Contract</h3>
-                              <p class="lead">Justin and his Test-Double team of double agents solve complex problems with clean, simple solutions and have a passion for sharing the learning involved.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Justin Searls</strong></p>
-                              <p><em class="text-capitalize">Co-Founder at Test Double</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="kassandra-perch">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Thin Client NodeBots and the future of JS in IoT</h3>
-                              <p class="lead">Kassandra is a software developer / educator / roboticist living in Austin. Host of @nodebotslive. NodeBots author/addict.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Kassandra Perch</strong></p>
-                              <p><em class="text-capitalize">Open Web Engineer at Bocoup</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="william-blankenship">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Rapidly Developing Microservices with Node.js and Docker</h3>
-                              <p class="lead">Wiliam is the founder of OpenSpace and Chair of the Association of Computing Machinery@SIUC.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">William Blankenship</strong></p>
-                              <p><em class="text-capitalize">Hacker at NodeSource</em></p>
-                          </div>
-                      </div>
-
-                      <div role="tabpanel" class="tab-pane fade" id="nathan-epstein">
-                          <div class="tab-inner">
-                              <h3 class="primary-color">Data Analysis with JavaScript</h3>
-                              <p class="lead">Nathan builds algorithmic trading applications, produces published research, and develops open source software with a focus on data.</p>
-                              <hr>
-                              <p><strong class="text-uppercase">Nathan Epstein</strong></p>
-                              <p><em class="text-capitalize">Engineer at Wealthsimple</em></p>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-    </div>
-  </div>
-</section>
 </template>
