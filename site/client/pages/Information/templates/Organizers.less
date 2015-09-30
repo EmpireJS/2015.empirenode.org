@@ -13,8 +13,34 @@
     }
 
     & > img {
-  		max-width: 240px;
-  		max-height: 240px;
+  		max-width: 120px;
+  		max-height: 120px;
   	}
+  }
+}
+
+@media (min-width: @container-sm) {
+  #organizers{
+
+    .thumbnail {
+
+      & > img {
+        max-width: 200px;
+        max-height: 200px;
+      }
+    }
+  }
+}
+
+@media (min-width: @container-md) {
+  #organizers{
+
+    .thumbnail {
+
+      & > img {
+        max-width: 240px;
+        max-height: 240px;
+      }
+    }
   }
 }
