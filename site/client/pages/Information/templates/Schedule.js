@@ -6,7 +6,8 @@ Template.Schedule.helpers({
         ampm: 'AM',
         title: 'Breakfast is served',
         who: undefined,
-        description: undefined
+        description: undefined,
+        info: true
       },
       {
         when: '9:15',
@@ -30,6 +31,14 @@ Template.Schedule.helpers({
         description: undefined
       },
       {
+        when: '10:35',
+        ampm: 'AM',
+        title: 'Coffee/Snack Break',
+        who: undefined,
+        description: undefined,
+        info: true
+      },
+      {
         when: '11:05',
         ampm: 'AM',
         title: 'Data Analysis with JavaScript',
@@ -49,6 +58,14 @@ Template.Schedule.helpers({
         title: 'Using Graph Theory to Build a Recommendation Engine in Node.js',
         who: 'Keith Horwood',
         description: undefined
+      },
+      {
+        when: '12:30',
+        ampm: 'PM',
+        title: 'Lunch',
+        who: undefined,
+        description: undefined,
+        info: true
       },
       {
         when: '2:15',
@@ -72,6 +89,14 @@ Template.Schedule.helpers({
         description: undefined
       },
       {
+        when: '3:40',
+        ampm: 'PM',
+        title: 'Snacks/Sanity break',
+        who: undefined,
+        description: undefined,
+        info: true
+      },
+      {
         when: '4:00',
         ampm: 'PM',
         title: 'Thin Client NodeBots and the future of JS in IoT',
@@ -93,5 +118,8 @@ Template.Schedule.helpers({
         description: undefined
       }
     ];
+  },
+  scheduleItemClass: function() {
+    return this.info ? 'info-color' : '';
   }
 });
