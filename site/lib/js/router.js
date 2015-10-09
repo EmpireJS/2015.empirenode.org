@@ -84,7 +84,6 @@ var redirects = {
 
 Router.route('/r/:id', {
   action: function (bla) {
-    console.log(this.params.id);
     var url = redirects[this.params.id];
     if (url) window.location = url;
     else Router.go('/');
