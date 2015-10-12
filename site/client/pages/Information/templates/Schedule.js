@@ -2,12 +2,30 @@ Template.Schedule.helpers({
   scheduleItems: function () {
     return [
       {
+        when: '10/22',
+        ampm: 'Thurs',
+        title: 'Pre-party @ UCB Theater',
+        who: undefined,
+        description: "We'll be kicking off the conference with improv comedy at UCB Chelsea, on Thursday Oct. 22nd. Stay tuned for details to RSVP. Limited seating available for this special event! <br><br> <span class='info-color'>UCB Theater</span><br> 307 W 26th St,<br> New York, NY 10001",
+        info: true,
+        hightlightDate: true
+      },
+      {
+        when: '10/23',
+        ampm: 'Fri',
+        title: 'EmpireNode Conference',
+        who: undefined,
+        description: "Head on over to the National Museum of the American Indian. <br><br><span class='info-color'>National Museum of the American Indian</span><br>One Bowling Green,<br>New York, NY 10004",
+        info: true,
+        hightlightDate: true
+      },
+      {
         when: '8:00',
         ampm: 'AM',
-        title: 'Breakfast is served',
+        title: 'Breakfast and Registration',
         who: undefined,
-        description: undefined,
-        info: true
+        info: true,
+        hightlightDate: true
       },
       {
         when: '9:15',
@@ -36,7 +54,8 @@ Template.Schedule.helpers({
         title: 'Coffee/Snack Break',
         who: undefined,
         description: undefined,
-        info: true
+        info: true,
+        hightlightDate: true
       },
       {
         when: '11:05',
@@ -65,7 +84,8 @@ Template.Schedule.helpers({
         title: 'Lunch',
         who: undefined,
         description: undefined,
-        info: true
+        info: true,
+        hightlightDate: true
       },
       {
         when: '2:15',
@@ -94,7 +114,8 @@ Template.Schedule.helpers({
         title: 'Snacks/Sanity break',
         who: undefined,
         description: undefined,
-        info: true
+        info: true,
+        hightlightDate: true
       },
       {
         when: '4:00',
@@ -116,10 +137,22 @@ Template.Schedule.helpers({
         title: 'The Social Coding Contract',
         who: 'Justin Searls',
         description: undefined
+      },
+      {
+        when: '6:00',
+        ampm: 'PM',
+        title: 'After party @ Bar Hugo Rooftop',
+        who: undefined,
+        description: "Join us after the conference for an evening of fun and socializing at the beautiful Bar Hugo at Hotel Hugo. Featuring dramatic views of the Hudson River, Freedom Tower and Statue of Liberty, Hotel Hugo’s rooftop duplex bar and lounge sparkles like a bronze lantern atop a soaring, 20-story tower. <br><br><span class='info-color'>Bar Hugo</span><br>525 Greenwich St.,<br>New York, NY 10013",
+        info: true,
+        hightlightDate: true
       }
     ];
   },
-  scheduleItemClass: function() {
+  scheduleItemClass: function () {
     return this.info ? 'info-color' : '';
+  },
+  hightlightDateClass: function () {
+    return this.hightlightDate ? 'info-bg-color' : '';
   }
 });
