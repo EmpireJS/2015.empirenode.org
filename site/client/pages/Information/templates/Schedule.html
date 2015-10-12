@@ -11,15 +11,17 @@
           <ul>
 
             {{#each scheduleItems}}
-              <li class="{{scheduleItemClass}}">
-                <div class="date">
+              <li>
+                <div class="date {{hightlightDateClass}}">
                   <span>{{when}}</span>
                   <span class="small">{{ampm}}</span>
                 </div>
-                <h4>{{{title}}} {{#if who}}<small>by {{who}}</small>{{/if}}</h4>
+                <h4  class="{{scheduleItemClass}}">
+                  {{{title}}} {{#if who}}<small>by {{who}}</small>{{/if}}
+                </h4>
                 {{#if description}}
                   <p>
-                    {{description}}
+                    {{{description}}}
                   </p>
                 {{/if}}
               </li>
