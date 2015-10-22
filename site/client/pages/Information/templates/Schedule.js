@@ -143,7 +143,7 @@ Template.Schedule.helpers({
         ampm: 'PM',
         title: 'After party @ Bar Hugo Rooftop',
         who: undefined,
-        description: "Join us after the conference for an evening of fun and socializing at the beautiful Bar Hugo at Hotel Hugo. Featuring dramatic views of the Hudson River, Freedom Tower and Statue of Liberty, Hotel Hugo’s rooftop duplex bar and lounge sparkles like a bronze lantern atop a soaring, 20-story tower. <br><br><span class='info-color'>Bar Hugo</span><br>525 Greenwich St.,<br>New York, NY 10013",
+        description: "Join us after the conference for an evening of fun and socializing at the beautiful Bar Hugo at Hotel Hugo. Featuring dramatic views of the Hudson River, Freedom Tower and Statue of Liberty, Hotel Hugo’s rooftop duplex bar and lounge sparkles like a bronze lantern atop a soaring, 20-story tower. <br><br><span class='info-color'>Bar Hugo</span><br>525 Greenwich St.,<br>New York, NY 10013.</br></br><a href='http://bit.ly/1W5wdjw'>Click here for directions from the event.</a>",
         info: true,
         hightlightDate: true
       }
