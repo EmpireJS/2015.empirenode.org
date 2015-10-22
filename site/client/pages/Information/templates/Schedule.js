@@ -6,7 +6,7 @@ Template.Schedule.helpers({
         ampm: 'Thurs',
         title: 'Pre-party @ UCB Theater',
         who: undefined,
-        description: "We'll be kicking off the conference with improv comedy at UCB Chelsea, on Thursday Oct. 22nd. Stay tuned for details to RSVP. Limited seating available for this special event! <br><br> <span class='info-color'>UCB Theater</span><br> 307 W 26th St,<br> New York, NY 10001",
+        description: "We'll be kicking off the conference with improv comedy at UCB Chelsea, on Thursday Oct. 22nd. <br> <br> If you've missed the emails haven't registered yet, do so now! Only 90 seats available for this special event! <br> <br> <a href='https://ti.to/empirejs/empirenode-2015/with/ievyuthi83o' target='_new'>Click here to register!</a>  <br>  <br> Click <a href='https://chelsea.ucbtheatre.com/performance/41906'>here</a> for info about the show. <br> <br><span class='info-color'>UCB Theater</span><br> 307 W 26th St,<br> New York, NY 10001",
         info: true,
         hightlightDate: true
       },
