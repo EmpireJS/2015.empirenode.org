@@ -39,14 +39,16 @@ Template.Schedule.helpers({
         ampm: 'AM',
         title: 'Keynote',
         who: 'Rod Vagg',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/J7HeSnxp0R4'
       },
       {
         when: '10:00',
         ampm: 'AM',
         title: 'The Importance of <code>import</code> and <code>export</code>',
         who: 'Ben Newman',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/-zch_YmKfa0'
       },
       {
         when: '10:35',
@@ -62,21 +64,24 @@ Template.Schedule.helpers({
         ampm: 'AM',
         title: 'Data Analysis with JavaScript',
         who: 'Nathan Epstein',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/eoY3IQk-2rk'
       },
       {
         when: '11:30',
         ampm: 'AM',
         title: 'Managing changes to your data with dat',
         who: 'Karissa McKelvey',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/FSljZcPvFhQ'
       },
       {
         when: '11:55',
         ampm: 'AM',
         title: 'Using Graph Theory to Build a Recommendation Engine in Node.js',
         who: 'Keith Horwood',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/KthdKB4LqGs'
       },
       {
         when: '12:30',
@@ -92,21 +97,24 @@ Template.Schedule.helpers({
         ampm: 'PM',
         title: 'Making front-end modules actually work',
         who: 'Lin Clark',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/m8Y7OV1yig0'
       },
       {
         when: '2:40',
         ampm: 'PM',
         title: 'Rapidly Developing Microservices with Node.js and Docker',
         who: 'William Blankenship',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/SUNxn0omNi4'
       },
       {
         when: '3:05',
         ampm: 'PM',
         title: 'Building Desktop Applications with Node and Electron',
         who: 'Steve Kinney',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/rbSvc8_BHaw'
       },
       {
         when: '3:40',
@@ -122,21 +130,24 @@ Template.Schedule.helpers({
         ampm: 'PM',
         title: 'Thin Client NodeBots and the future of JS in IoT',
         who: 'Kassandra Perch',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/WmjOrGJIxgo'
       },
       {
         when: '4:25',
         ampm: 'PM',
         title: 'Refactoring the dinosaur',
         who: 'Suz Hinton',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/AScZPmXlLlI'
       },
       {
         when: '4:50',
         ampm: 'PM',
         title: 'The Social Coding Contract',
         who: 'Justin Searls',
-        description: undefined
+        description: undefined,
+        video: 'https://www.youtube.com/embed/PlagRkD4e8s'
       },
       {
         when: '6:00',
